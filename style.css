@@ -27,7 +27,7 @@
 }
 .field{
     grid-column: 2/-1;
-    width: 150px;
+    width: 160px;
     height: 40px;
     align-self: center;
     justify-self: center;

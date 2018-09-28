@@ -159,7 +159,7 @@ else{
 
 function principal_set_form(prin_check){
     if (prin_check === true){
-    document.getElementById("principal").value = 'Will Find Loan Total'; 
+    document.getElementById("principal").value = 'Find Loan Max'; 
     document.getElementById("principal").disabled = true;
     document.getElementById('length').disabled = false;
     document.getElementById('interest_rate').disabled = false;
@@ -175,7 +175,7 @@ function principal_set_form(prin_check){
 }
 function length_set_form(length_check){
     if (length_check === true){
-    document.getElementById("length").value = 'Required Loan Length'; 
+    document.getElementById("length").value = 'Find Needed Length'; 
     document.getElementById("length").disabled = true;
     document.getElementById('principal').disabled = false;
     document.getElementById('interest_rate').disabled = false;
@@ -190,7 +190,7 @@ function length_set_form(length_check){
 }
 function interest_form(interest_check){
     if (interest_check === true){
-    document.getElementById("interest_rate").value = 'Finding Interest Rate'; 
+    document.getElementById("interest_rate").value = 'Find Needed Rate'; 
     document.getElementById("interest_rate").disabled = true;
     document.getElementById('principal').disabled = false;
     document.getElementById('length').disabled = false;
@@ -204,7 +204,7 @@ function interest_form(interest_check){
 }
 function month_set_form(month_check){
     if (month_check === true){
-    document.getElementById("monthly_payment").value = 'Will Find Payment';
+    document.getElementById("monthly_payment").value = 'Find Payment Amount';
     document.getElementById("monthly_payment").disabled = true;
     document.getElementById('principal').disabled = false;
     document.getElementById('length').disabled = false;
